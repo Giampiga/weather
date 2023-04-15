@@ -102,7 +102,8 @@ export default function App () {
           value={city}
           onChange={(e) => setCity(e.target.value)} 
           error={error.error}
-          helperText={error.message}/>
+          helperText={error.message}
+        />
           <LoadingButton
             type="submit"
             variant="contained"
@@ -150,6 +151,7 @@ export default function App () {
       <Typography
         textAlign="center"
         sx={{ mt: 2, fontSize: "10px" }}>
+          Made by: Giampiero Giovingo <br></br>
           Powered by: {" "}
           <a href="https://www.weatherapi.com"
             title="Weather API">
